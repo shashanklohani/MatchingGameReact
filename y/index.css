@@ -1,0 +1,98 @@
+.Container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Deck {
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    background: darkcyan;
+    justify-content: space-evenly;
+    align-content: space-around;
+    height: 600px;
+    width: 600px;
+}
+
+.Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: white;
+    width: 22%;
+    height: 22%;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.Header {
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 100px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+}
+
+.ScorePanel {
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    border-radius: 8px;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: lightcoral;
+}
+
+.Moves {
+    width: 20%;
+    background: darkcyan;
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.RestartButton {
+    border-radius: 8px;
+    height: 48px;
+    width: 48px;
+}
+
+.Score {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+.deck {
+    background: lightblue;
+    border-radius: 8px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width: 22%;
+    height: 100px;
+}
