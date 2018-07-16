@@ -1,11 +1,11 @@
 # MemoryGame
-Link: https://sonalsharma1108.github.io/MemoryGame/
+Link: https://memorygame-724ec.firebaseapp.com/
 
 ## What is a Memory Game?
 This is a simple game built to test a users memory. There's a deck of cards with different images.
 
 ## Challenge
-Match cards in less time with less moves and earn maximum star points.
+Match cards before moves runs out.
 
 ## Instructions
 * Click on a card
